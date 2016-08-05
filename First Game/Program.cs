@@ -130,7 +130,7 @@ namespace ConsoleApplication1
 
         public void moveCharacterRight()
         {
-            this.map[currentCharPosY][currentCharPosX] = " * ";
+            this.map[currentCharPosY][currentCharPosX] = " : ";
             this.currentCharPosX += 1;
             if (this.currentCharPosX >= this.width)
             {
@@ -141,7 +141,7 @@ namespace ConsoleApplication1
 
         public void moveCharacterLeft()
         {
-            this.map[currentCharPosY][currentCharPosX] = " * ";
+            this.map[currentCharPosY][currentCharPosX] = " : ";
             this.currentCharPosX -= 1;
             if (this.currentCharPosX < 0)
             {
@@ -152,7 +152,7 @@ namespace ConsoleApplication1
 
         public void moveCharacterUp()
         {
-            this.map[currentCharPosY][currentCharPosX] = " * ";
+            this.map[currentCharPosY][currentCharPosX] = " : ";
 
             this.currentCharPosY -= 1;
             if (this.currentCharPosY < 0)
@@ -164,7 +164,7 @@ namespace ConsoleApplication1
 
         public void moveCharacterDown()
         {
-            this.map[currentCharPosY][currentCharPosX] = " * ";
+            this.map[currentCharPosY][currentCharPosX] = " : ";
             this.currentCharPosY += 1;
             if (this.currentCharPosY >= this.height)
             {
